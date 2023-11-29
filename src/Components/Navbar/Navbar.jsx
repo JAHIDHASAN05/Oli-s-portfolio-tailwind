@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.png"
 const Navbar = () => {
     return (
         <>
-        <nav className='flex justify-between items-center mx-52 p-8'>
+        <nav className='flex justify-between items-center mx-44 p-8'>
             <img src={logo} alt="" />
             <ul className='text-lg font-medium flex gap-x-20'>
                 <a href="">Home</a>

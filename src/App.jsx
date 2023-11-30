@@ -13,7 +13,7 @@ function App() {
     <>
        <Navbar></Navbar>
        <Banner></Banner>
-       <div className="bg-auto bg-no-repeat bg-center h-screen w-screen" style={{ backgroundImage: `url(${BodyBg})` }}>
+       <div className="bg-auto bg-no-repeat bg-center  w-screen" style={{ backgroundImage: `url(${BodyBg})` }}>
         <Project></Project>
        </div>
     </>

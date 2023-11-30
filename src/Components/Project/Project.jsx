@@ -1,5 +1,6 @@
 import React from 'react';
-import pic from './../../assets/img/home-right.png'
+import pic from './../../assets/img/assignment-toy-project.web.app_.png'
+import './Project.css'
 
 const Project = () => {
     return (
@@ -11,13 +12,13 @@ const Project = () => {
             
              <section  className=' ms-40 mx-20 mt-10'>
              <p className='mt-10 text-2xl'>My feature</p>
-                <div className='grid grid-cols-2 gap-5 mt-5 '>
+                <div className='PortfolioContainer grid grid-cols-2 gap-5 mt-5'>  
 
-
-
-                    <div className=' border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
-                    <div className=' border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
-                        <div className=" h-72">
+                {/* <!-- Project preview Card 001 --> */}
+    
+                    <div className='portfolio border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
+                    <div className=' SiteInfo  border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
+                        <div className="Site h-72">
                             <img className='object-cover h-72 ' src={pic} alt="" />
                         </div>
 
@@ -41,9 +42,13 @@ const Project = () => {
 
                     </div>
                     </div>
-                    <div className=' border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
-                    <div className=' border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
-                        <div className=" h-72">
+
+
+                      {/* <!-- Project preview Card 002 --> */}
+
+                    <div className='portfolio border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
+                    <div className=' SiteInfo  border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
+                        <div className="Site h-72">
                             <img className='object-cover h-72 ' src={pic} alt="" />
                         </div>
 
@@ -67,9 +72,12 @@ const Project = () => {
 
                     </div>
                     </div>
-                    <div className=' border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
-                    <div className=' border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
-                        <div className=" h-72">
+
+                      {/* <!-- Project preview Card 003 --> */}
+
+                    <div className='portfolio border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
+                    <div className=' SiteInfo  border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
+                        <div className="Site h-72">
                             <img className='object-cover h-72 ' src={pic} alt="" />
                         </div>
 
@@ -93,9 +101,12 @@ const Project = () => {
 
                     </div>
                     </div>
-                    <div className=' border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
-                    <div className=' border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
-                        <div className=" h-72">
+
+
+                      {/* <!-- Project preview Card 004 --> */}
+                    <div className='portfolio border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
+                    <div className=' SiteInfo  border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
+                        <div className="Site h-72">
                             <img className='object-cover h-72 ' src={pic} alt="" />
                         </div>
 
@@ -119,6 +130,20 @@ const Project = () => {
 
                     </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+                   
+                    
+                   
                    
 
 

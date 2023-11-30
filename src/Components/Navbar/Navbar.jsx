@@ -10,10 +10,13 @@ const Navbar = () => {
     return (
         <>
         <nav className='flex justify-between items-center mx-44 p-8'>
-        <div>
+        <div className='relative w-48'>
         <h1 className="text-4xl font-bold" style={gradientText}>
             OLIULLAH
          </h1>
+         <div className='h-2 w-2 rounded-full bg-black absolute top-0 right-0 bg-[rgb(162,124,240)]'>
+
+         </div>
         </div>
             <ul className='text-lg font-medium flex gap-x-20'>
                 <a href="">Home</a>

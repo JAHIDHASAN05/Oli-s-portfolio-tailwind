@@ -6,6 +6,9 @@ import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import BodyBg from './assets/img/body-bg.png'
 import Project from './Components/Project/Project'
+import Footer from './Components/Footer/Footer'
+import HireMe from './Components/HireMe/HireMe'
+import MyContact from './Components/MyContact/MyContact'
 
 function App() {
 
@@ -14,7 +17,9 @@ function App() {
        <Navbar></Navbar>
        <Banner></Banner>
        <div className="bg-auto bg-no-repeat bg-center  w-screen" style={{ backgroundImage: `url(${BodyBg})` }}>
+        <HireMe></HireMe>
         <Project></Project>
+        <Footer></Footer>
        </div>
     </>
   )

@@ -1,0 +1,24 @@
+.ContactAll .title h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: fangsong;
+}
+
+.ContactAll .myInformation .myInfo {
+    border-left: 2px solid #F26E3F;
+    padding: 12px 20px;
+    border-radius: 31px;
+    border-right: 2px solid #F26E3F;
+}
+.ContactAll .myInformation .myInfo i {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #10B981;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+}

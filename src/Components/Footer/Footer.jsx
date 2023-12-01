@@ -41,14 +41,14 @@ const Footer = () => {
                 </div>
 
                 <div className='mt-8 md:mt-0'>
-                    <span className="text-lg font-semibold text-white">Newsletter</span>
+                    <span className="text-lg font-semibold ">Newsletter</span>
                     <div className="form-control w-full">
                         <label className="label">
                             <span className="label-text">Enter your email address</span>
                         </label>
                         <div className="relative">
-                            <input type="text" placeholder="username@site.com" className="input input-bordered w-full pr-16" />
-                            <button type="submit" class="btn btn-success absolute top-0 right-0 rounded-l-none
+                        <input type="text" placeholder="username@site.com" className="input input-bordered w-full pr-16" />
+                            <button type="submit" class=" btn btn-success absolute top-0 right-0 rounded-l-none
                             inline-flex items-center 
                             justify-start px-7  py-2  overflow-hidden font-medium transition-all 
                             bg-gradient-to-r from-emerald-500 to-blue-500  hover:bg-white group">

@@ -10,7 +10,7 @@ const Project = () => {
                 My Project
              </h1>
             
-             <section  className=' ms-40 mx-20 mt-10'>
+             <section  className=' ms-40 mx-20 mt-10 mb-20'>
              <p className='mt-10 text-2xl'>My feature</p>
                 <div className='PortfolioContainer grid grid-cols-2 gap-5 mt-5'>  
 

@@ -45,6 +45,7 @@ const SkillContainer = styled.div`
   border-right: 5px dotted ${({ color }) => (color ? color : defaultColor)};
   display: flex;
   flex-wrap: wrap;
+  
   justify-content: center;
 `;
 const SkillCategory = styled.div`
@@ -66,6 +67,7 @@ const SkillCategory = styled.div`
   .skills {
     display: flex;
     flex-wrap: wrap;
+    
   }
 `;
 
@@ -74,7 +76,7 @@ const SkillItem = styled.div`
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 50px;
   text-align: center;
   animation: ${waveAnimation} 1s ease infinite;
   animation-delay: ${(props) => props.delay};
@@ -83,7 +85,7 @@ const SkillItem = styled.div`
 const SkillIcon = styled.div`
   color: ${({ color }) => (color ? color : defaultColor)};
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 `;
 
 const SkillName = styled.div`

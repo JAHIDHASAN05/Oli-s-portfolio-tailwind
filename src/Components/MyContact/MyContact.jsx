@@ -172,10 +172,10 @@ const Contact = () => {
 
 
     return (
-        <div className='bg-[#FBFBFF] py-14' id='contact'>
+        <div className='bg-[#FBFBFF] py-14 mt-10' id='contact'>
             <div className="ContactAll md:mx-20 mx-3">
 
-                <div className="title text-left">
+                {/* <div className="title text-left">
                     <h2>My Contact</h2>
                     <p className=''>OLIULLAH BHUIYAN</p>
                 </div>
@@ -202,7 +202,7 @@ const Contact = () => {
                             <h3>Narsingdi, Dhaka, Bangladesh</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className="Contact  mt-20 grid md:grid-cols-2 gap-8">

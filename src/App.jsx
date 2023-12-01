@@ -20,10 +20,8 @@ function App() {
        <Banner></Banner>
        <div className="bg-auto bg-no-repeat bg-center "  style={{backgroundImage: `url(${BodyBg})`}}>
         <Project></Project>
-        <div className='mx-4 mt-32'>
         <Skills></Skills>
 
-        </div>
         <MyContact></MyContact>
         <Footer></Footer>
        </div>

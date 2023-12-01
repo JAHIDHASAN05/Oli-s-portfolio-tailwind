@@ -44,9 +44,10 @@ const SkillContainer = styled.div`
   border-left: 5px dotted ${({ color }) => (color ? color : defaultColor)};
   border-right: 5px dotted ${({ color }) => (color ? color : defaultColor)};
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap;  
   justify-content: center;
+  margin:8rem 1rem;
+
 `;
 const SkillCategory = styled.div`
   display: flex;

@@ -9,6 +9,7 @@ import Project from './Components/Project/Project'
 import Footer from './Components/Footer/Footer'
 import HireMe from './Components/HireMe/HireMe'
 import Skills from './Components/Skill/skill'
+import MyContact from './Components/MyContact/MyContact'
 
 
 function App() {
@@ -19,7 +20,11 @@ function App() {
        <Banner></Banner>
        <div className="bg-auto bg-no-repeat bg-center  w-screen" style={{ backgroundImage: `url(${BodyBg})` }}>
         <Project></Project>
+        <div className='mx-44 mt-32'>
         <Skills></Skills>
+
+        </div>
+        <MyContact></MyContact>
         <Footer></Footer>
        </div>
     </>

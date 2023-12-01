@@ -14,7 +14,7 @@ const Navbar = () => {
         <h1 className="text-4xl font-bold" style={gradientText}>
             OLIULLAH
          </h1>
-         <div className='h-2 w-2 rounded-full bg-black absolute top-0 right-0 bg-[rgb(162,124,240)]'>
+         <div className='h-2 w-2 rounded-full absolute top-0 right-0 bg-[#CCB3FF]'>
 
          </div>
         </div>

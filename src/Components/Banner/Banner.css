@@ -30,3 +30,36 @@
 }
 
 
+/* medium device media queries */
+
+
+
+@media screen and (min-width:641px)  and (max-width:1023px){
+
+    .banner-container{
+        flex-direction: column;
+        margin: auto;   
+        padding: auto;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        margin: 1.25rem !important;
+        margin-bottom: 50rem !important;
+
+        
+    }
+    .banner-img-container{
+        margin: 1.25rem !important;
+    }
+    .primary-title{
+        font-size: 3.2rem!important;
+        font-weight: 400;
+    }
+    .primary-info{
+        font-size: 1.5rem  !important ;
+    }
+    .about-title{
+        font-size: 1.5rem  !important ;
+
+    }
+    
+}

@@ -25,7 +25,7 @@ const Banner = () => {
 
             </div>
             
-            <div className='banner-img-container '>
+            <div className='banner-img-container m-44 '>
                     <img className='relative top-20 right-0 object-contain' src={BannerPic}></img>
              </div>
             

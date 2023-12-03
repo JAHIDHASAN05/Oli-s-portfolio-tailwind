@@ -1,0 +1,32 @@
+/* small device media quaries */
+
+@media screen and (max-width: 640px){
+    .banner-container{
+        flex-direction: column;
+        margin: auto;   
+        padding: auto;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        margin: 1.25rem !important;
+
+        
+    }
+    .banner-img-container{
+        position: relative;
+        margin: 1.25rem !important;
+    }
+    .primary-title{
+        font-size: 2.5rem!important;
+        font-weight: 400;
+    }
+    .primary-info{
+        font-size: 1.5rem  !important ;
+    }
+    .about-title{
+        font-size: 1.5rem  !important ;
+
+    }
+
+}
+
+

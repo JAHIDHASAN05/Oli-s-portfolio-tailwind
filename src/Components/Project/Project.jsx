@@ -12,7 +12,7 @@ const Project = () => {
             
              <section  className=' ms-40 mx-20 mt-10 mb-20'>
              <p className='mt-10 text-2xl'>My feature</p>
-                <div className='PortfolioContainer grid grid-cols-2 gap-5 mt-5'>  
+                <div className='PortfolioContainer grid grid-cols-1 gap-5 mt-5 sm:grid-cols-1 md:grid-cols-2'>  
 
                 {/* <!-- Project preview Card 001 --> */}
     
@@ -49,7 +49,7 @@ const Project = () => {
                     <div className='portfolio border-0 bg-black h-[32.9rem] w-[38.8rem] rounded-[2.5rem] relative mb-10'>
                     <div className=' SiteInfo  border-[1px] border-black bg-white p-5 h-[32rem] w-[38rem] rounded-3xl absolute  ' >
                         <div className="Site h-72">
-                            <img className='object-cover h-72 ' src={pic} alt="" />
+                            <img  className=' pic-2 object-cover h-72 ' src={pic} alt="" />
                         </div>
 
 

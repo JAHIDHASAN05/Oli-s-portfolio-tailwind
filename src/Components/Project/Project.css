@@ -11,6 +11,9 @@
     object-position: top center;
     transition: all 4s ease-in-out;
 }
+.PortfolioContainer .portfolio .Site .pic-2 {   
+    transition: all 10s ease-in-out;
+}
 .PortfolioContainer .portfolio .Site:hover img {
     object-position: bottom center;
 }

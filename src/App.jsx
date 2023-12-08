@@ -19,11 +19,12 @@ function App() {
        {/* <Navbar></Navbar> */}
        <Banner></Banner>
        <div className="bg-auto bg-no-repeat bg-center "  style={{backgroundImage: `url(${BodyBg})`}}>
-        {/* <Project></Project> */}
-        {/* <Skills></Skills>
+        <Project></Project>
+        <Skills></Skills>
 
         <MyContact></MyContact>
-        <Footer></Footer> */}
+
+        <Footer></Footer>
        </div>
     </>
   )

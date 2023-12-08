@@ -51,7 +51,7 @@ const Banner = () => {
             </div>
             
             <div className='banner-img-container m-44 '>
-                    <img className=' md:absolute top-20 right-0 object-contain w-max' src={BannerPic}></img>
+                    <img className=' md:absolute top-0 right-0 object-contain w-max' src={BannerPic}></img>
              </div>
             
             </div>

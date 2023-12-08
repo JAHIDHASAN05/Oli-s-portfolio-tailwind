@@ -172,7 +172,7 @@ const Contact = () => {
 
 
     return (
-        <div className='bg-[#FBFBFF] py-14 mt-10' id='contact'>
+        <div className='bg-[#FBFBFF]  mt-10' id='contact'>
             <div className="ContactAll md:mx-20 mx-3">
 
                 {/* <div className="title text-left">

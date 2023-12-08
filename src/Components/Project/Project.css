@@ -51,6 +51,7 @@
 
     .portfolio-section{
         margin: 10px !important;
+        padding-left: 10px;
     }
     .project-title{
         margin-top: 0 !important;

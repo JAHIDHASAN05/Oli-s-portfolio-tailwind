@@ -6,7 +6,7 @@ const Project = () => {
     return (
         <>
             {/* <div className=" ring-0 shadow-md border border-solid border-dark bg-light shadow-2xl dark:border-light dark:bg-dark"> {/* Replace shadow-md with your desired shadow class */}
-            <h1 className=" project-title text-5xl text-center font-bold mt-96">
+            <h1 className=" project-title text-5xl text-center font-bold mt-96 ">
                 My Project
              </h1>
             
@@ -28,7 +28,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
                                     
 
                             <div className='flex justify-beetwen items-center  mt-5'>
@@ -49,7 +49,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
                                     
 
                             <div className='flex justify-beetwen items-center  mt-5'>
@@ -69,7 +69,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
                                     
 
                             <div className='flex justify-beetwen items-center  mt-5'>
@@ -89,7 +89,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
                                     
 
                             <div className='flex justify-beetwen items-center  mt-5'>
@@ -134,7 +134,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
 
 
                             <div className='flex justify-around items-center gap-6 mt-5'>
@@ -163,7 +163,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
 
 
                             <div className='flex justify-around items-center gap-6 mt-5'>
@@ -192,7 +192,7 @@ const Project = () => {
 
 
                         <div className='h-32 mt-10 rounded-xl border-cyan-500 border-2 shadow-lg shadow-cyan-500/50'>
-                            <h1 className='text-center  mt-5 text-xl'>Dance Online School</h1>
+                            <h1 className='text-center  mt-5 text-xl'>Project Preview</h1>
 
 
                             <div className='flex justify-around items-center gap-6 mt-5'>

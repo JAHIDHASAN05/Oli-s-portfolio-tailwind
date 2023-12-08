@@ -46,7 +46,7 @@ const SkillContainer = styled.div`
   display: flex;
   flex-wrap: wrap;  
   justify-content: center;
-  margin:8rem 1rem;
+  margin: 5rem 1rem;
 
 `;
 const SkillCategory = styled.div`
@@ -68,6 +68,8 @@ const SkillCategory = styled.div`
   .skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     
   }
 `;
@@ -81,16 +83,18 @@ const SkillItem = styled.div`
   text-align: center;
   animation: ${waveAnimation} 1s ease infinite;
   animation-delay: ${(props) => props.delay};
+  
 `;
 
 const SkillIcon = styled.div`
   color: ${({ color }) => (color ? color : defaultColor)};
   font-size: 3rem;
   margin-bottom: 0px;
+  
 `;
 
 const SkillName = styled.div`
-  font-size: 1rem;
+  font-size: 0.8rem;
 `;
 
 const SkillTitle = styled.h2`
